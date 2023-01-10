@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(68, 82, 96);
+}
+
+#div_color {
+    margin-top: 50px;
+}
+
+#container {
+    text-align: center;
+}
+
+.color_block {
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    margin: 3px auto;
+}
+
+#pale_violet_red {
+    background-color: #d87093;
+}
+
+#light_yellow {
+    background-color: rgb(252, 244, 121);
+}
+
+#dark_salmon {
+    background-color: darksalmon;
+}
+
+#corn_flower_blue {
+    background-color: cornflowerblue;
+}
+
+#two_button {
+display: flex;
+justify-content: center;
+}
+
+.updown {
+    display: flex;
+    width: 46px;
+    height: 46px;
+    align-items: center;
+    justify-content: center; 
+    color: rgb(28, 11, 11);
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+#up {
+    background-color: rgb(255, 246, 121);
+    border: 2px solid rgb(173, 175, 95);
+    user-select: none;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    justify-self:center;
+}
+
+#up:active {
+    background-color: rgba(36, 197, 103, 0.3);
+}
+
+#down {
+    background-color: rgb(204, 158, 232);
+    user-select: none;
+    border: 2px solid rgb(146, 110, 168);
+}
+
+#down:active {
+    background-color: #e7490f46;
+    user-select: none;
+}
